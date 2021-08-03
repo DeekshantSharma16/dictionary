@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
+        const [word, setWord] = useState("");
         const [meanings, setMeanings] = useState([]);
 
   const dictionaryapi = async () => {
@@ -17,7 +18,7 @@ function App() {
     }
   };
 
-  console.log(meanings);
+
   useEffect(() => {
           dictionaryapi();
   }, [])
