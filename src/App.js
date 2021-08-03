@@ -2,6 +2,7 @@ import { Container } from "@material-ui/core";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "./App.css";
+import Header from "./Components/Header";
 
 function App() {
   const [word, setWord] = useState("");
@@ -23,9 +24,17 @@ function App() {
     dictionaryapi();
   }, []);
   return (
-    <div style={{height:'100vh', background:'#282c34',color:"white"}}>
-      <Container max="md" style={{display:"flex",flexDirection:"column",height:"100vh"}}>
-Dictionary
+    <div style={{ height: "100vh", background: "#282c34", color: "white" }}>
+      <Container
+        max="md"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          height: "100vh",
+          justifyContent: "center",
+        }}
+      >
+        <Header />
       </Container>
     </div>
   );
