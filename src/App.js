@@ -31,7 +31,6 @@ function App() {
           display: "flex",
           flexDirection: "column",
           height: "100vh",
-          justifyContent: "center",
         }}
       >
         <Header />
@@ -41,3 +40,5 @@ function App() {
 }
 
 export default App;
+
+
