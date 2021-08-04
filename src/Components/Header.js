@@ -1,11 +1,22 @@
+import { createMuiTheme, TextField, ThemeProvider } from "@material-ui/core";
 import React from "react";
-import './header.css'
+import "./header.css";
 const Header = () => {
+  const darkTheme = createMuiTheme({
+    palette: {
+      primary: {
+        main: "#fff",
+      },
+      type: "dark",
+    },
+  });
   return (
     <div className="header">
       <span className="title">Word Hunt</span>
       <div className="inputs">
-<TextField id="standard-basic" label="Standard" />
+        <ThemeProvider theme={darkTheme}>
+          <TextField id="standard-basic" label="Standard" />
+        </ThemeProvider>
       </div>
     </div>
   );
