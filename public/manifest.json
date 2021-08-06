@@ -8,29 +8,29 @@
   "start_url": "/",
   "icons": [
     {
-      "src": "maskable.png",
+      "src": "favicon.ico",
       "sizes": "196x196",
-      "type": "image/png",
+      "type": "image/ico",
       "purpose": "any maskable"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "favicon.ico",
+      "type": "image/ico",
       "sizes": "192x192"
     },
     {
-      "src": "logo256.png",
-      "type": "image/png",
+      "src": "favicon.ico",
+      "type": "image/ico",
       "sizes": "256x256"
     },
     {
-      "src": "logo384.png",
-      "type": "image/png",
+      "src": "favicon.ico",
+      "type": "image/ico",
       "sizes": "384x384"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
+      "src": "favicon.ico",
+      "type": "image/ico",
       "sizes": "512x512"
     }
   ]

@@ -8,8 +8,8 @@ const Footer = () => {
 Get connected with us on social networks:
       <div className="iconContainer">
         <a href="https://www.instagram.com/deekshantsharma_/" target="__blank">
-          <p class="instagram">
-            <i class="fab fa-instagram fa-2x"></i>
+          <p className="instagram">
+            <i className="fab fa-instagram fa-2x"></i>
           </p>
         </a>
         <a

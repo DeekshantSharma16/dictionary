@@ -1,4 +1,4 @@
-import { createMuiTheme, TextField, ThemeProvider } from "@material-ui/core";
+import { createTheme, TextField, ThemeProvider } from "@material-ui/core";
 import React from "react";
 import "./Header.css";
 import MenuItem from "@material-ui/core/MenuItem";
@@ -13,7 +13,7 @@ const Header = ({
   setMeanings,
   LightTheme,
 }) => {
-  const darkTheme = createMuiTheme({
+  const darkTheme = createTheme({
     palette: {
       primary: {
         main: LightTheme ? "#000" : "#fff",
